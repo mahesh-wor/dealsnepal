@@ -3,8 +3,8 @@ from .models import smartphone
 
 
 def homelistview(request):
-    phoneinfoall = [1, 2, 3, 4]
+
     context = {
-        'phoneinfo':phoneinfoall
+        'phoneinfo':smartphone.objects.all()
     }
-    return render(request,'dealsnepalapp/home.html')
+    return render(request,'dealsnepalapp/home.html',context)

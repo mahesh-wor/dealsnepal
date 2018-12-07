@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e545b9d3-4772-4daa-a647-c861835cd8cb" name="Default Changelist" comment="added base.html">
-      <change afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/phone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/urls.py" afterDir="false" />
+    <list default="true" id="e545b9d3-4772-4daa-a647-c861835cd8cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/static/dealsnepalapp/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dealsnepal/dealsnepal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dealsnepal/dealsnepal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/smartphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/smartphones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dealsnepal/dealsnepalapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/scrapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="293">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -43,29 +39,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="180">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/static/dealsnepalapp/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepal/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -83,8 +80,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="135">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -101,11 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="195">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,23 +132,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dealsnepal/dealsnepal/settings.py" />
-        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/models.py" />
         <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/admin.py" />
         <option value="$PROJECT_DIR$/dealsnepal/dealsnepal/urls.py" />
         <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/urls.py" />
-        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/views.py" />
-        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/base.html" />
-        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html" />
         <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/test.py" />
         <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/phone.py" />
         <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/scrapper.py" />
+        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/models.py" />
+        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/views.py" />
+        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/static/dealsnepalapp/css/main.css" />
+        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/base.html" />
+        <option value="$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="489" />
-    <option name="y" value="34" />
-    <option name="width" value="952" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
     <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -192,6 +195,30 @@
               <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
               <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
               <item name="dealsnepalapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dealsnepal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepalapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepalapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dealsnepal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepalapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepalapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dealsnepal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepal" type="462c0819:PsiDirectoryNode" />
+              <item name="dealsnepalapp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,7 +240,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dealsnepal/dealsnepalapp/static/dealsnepalapp/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dealsnepal/dealsnepalapp/static/dealsnepalapp" />
       <recent name="$PROJECT_DIR$/dealsnepal/dealsnepalapp/script" />
     </key>
   </component>
@@ -261,14 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544157152477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added detail_scraping">
+      <created>1544182130849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544182130849</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1052" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11966263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24278075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -278,10 +316,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.22535211" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32575756" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.22510822" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22210184" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32900432" />
+      <window_info anchor="right" x="0" y="0" width="190" height="852" id="Documentation" side_tool="true" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,11 +345,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="json added" />
     <MESSAGE value="stripped + models" />
     <MESSAGE value="added base.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="added base.html" />
+    <MESSAGE value="added detail_scraping" />
+    <option name="LAST_COMMIT_MESSAGE" value="added detail_scraping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -326,13 +369,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepal/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/smartphones.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -393,37 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/phone.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -433,10 +438,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/script/scrapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="293">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepal/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/static/dealsnepalapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/static/dealsnepalapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealsnepal/dealsnepalapp/templates/dealsnepalapp/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

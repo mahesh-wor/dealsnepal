@@ -1,4 +1,5 @@
 {% load static %}
+{% load staticfiles %}
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -9,37 +10,12 @@
     <link rel="shortcut icon" href="{% static 'favicon/favicon.png' %}"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
-    <!--<link href="{% static 'static/dealsnepal/css/main.css" rel="stylesheet">-->
+    <link href="{% static 'dealsnepalapp/css/main.css' %}" rel="stylesheet">
     <title> dealsnepal </title>
 
   </head>
         <body>
-        <style>
 
-            body {
-              padding-top: 54px;
-            }
-
-            @media (min-width: 992px) {
-              body {
-                padding-top: 56px;
-              }
-            }
-
-            .portfolio-item {
-              margin-bottom: 30px;
-            }
-
-            .pagination {
-              margin-bottom: 30px;
-            }
-            .footer {
-              position: fixed;
-              left: 0;
-              bottom: 0;
-              width: 100%;
-             }
-      </style>
             <!-- Navigation -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
               <div class="container">
@@ -61,6 +37,7 @@
                 </div>
               </div>
             </nav>
+
             {% block content %}{% endblock %}
 
 
