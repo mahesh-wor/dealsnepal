@@ -1,13 +1,15 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-import json
-
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+import phone
+import time
 
 option = webdriver.ChromeOptions()
-option.add_argument(" — incognito")
+
+
+option = Options()
+option.add_argument("--headless")
+option.add_argument("--incognito")
 
 browser = webdriver.Chrome(executable_path="./chromedriver", chrome_options=option)
 url="https://www.daraz.com.np/smartphones/"
@@ -21,10 +23,10 @@ def get_pages():
 
 pages=get_pages()
 
-name_price_url= {}
+name_price_detail_url= {}
 
 def updatedict(dict):
-    name_price_url.update(dict)
+    name_price_detail_url.update(dict)
 
 
 for i in range(1,2):
@@ -32,22 +34,34 @@ for i in range(1,2):
     phone_name = browser.find_elements_by_xpath("//a[@ age='0']")
     phone_img = browser.find_elements_by_xpath('//div[@class="c2p6A5"]')
     phone_price = browser.find_elements_by_xpath("//span[@ class='c29VZV']")
-    phone_link=[]
+    phone_img_url=[]
+    phone_img_detail=[]
     name_price_url_tmp={}
     for item in phone_img:
         img=item.find_element_by_tag_name('a')
         link=img.get_attribute('href')
-        phone_link.append(link)
+        #
+        # a=phone.get_img_url(link)
+        # print(a)
+        # time.sleep(2)
+        # phone_img_url.append(a)
 
-    titles = [x.text.replace("/","").replace("\","") for x in phone_name]
+        phone_img_url.append(link)
+        phone_img_detail.append(link)
+
+
+        print(link)
+
+    titles = [x.text.replace("/","") for  x in phone_name]
     price_list = [int(x.text.split()[1].replace(",","")) for x in phone_price]
 
     titles_filtered= list(filter(None,titles))
-    name_price_url_tmp=dict(zip(titles_filtered,zip(price_list,phone_link)))
-    name_price_url.update(name_price_url_tmp)
+    name_price_url_tmp=dict(zip(titles_filtered,zip(price_list,phone_img_detail,phone_img_url)))
+    #name_price_detail_url.update(name_price_url_tmp)
+
     updatedict(name_price_url_tmp)
 
-    print(len(name_price_url_tmp), len(name_price_url))
+print(name_price_detail_url)
 
-with open('smartphones.json','w') as jsonfile:
-    json.dump(name_price_url,jsonfile, indent=4)
+
+

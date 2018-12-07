@@ -35,10 +35,6 @@
         30999,
         "https://www.daraz.com.np/products/xiaomi-a2-4gb-ram-64gb-rom-59-screen-black-i100020113-s1015568122.html?search=1"
     ],
-    "Samsung Galaxy J4 (2 GB RAM, 16 GB ROM) 5.5\" Screen - Gold": [
-        16550,
-        "https://www.daraz.com.np/products/samsung-galaxy-j4-2-gb-ram-16-gb-rom-55-screen-gold-i383623-s12081172.html?search=1"
-    ],
     "Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]": [
         42000,
         "https://www.daraz.com.np/products/xiaomi-mi-6-smart-mobile-phone-6gb-ram-128gb-rom-blue-i100013476-s1008581302.html?search=1"
@@ -79,16 +75,12 @@
         36999,
         "https://www.daraz.com.np/products/xiaomi-pocophone-f1-6-gb-ram-64-gb-rom-618-inch-screen-black-blue-i100092882-s1020354392.html?search=1"
     ],
-    "Samsung Galaxy J6 (4GB RAM, 64GB ROM) 5.6\" Screen - Gold": [
-        27980,
-        "https://www.daraz.com.np/products/samsung-galaxy-j6-4gb-ram-64gb-rom-56-screen-gold-i383626-s12081182.html?search=1"
-    ],
     "Gionee A1 Lite Smart Mobile Phone (32GB ROM + 3GB RAM) 5.3\" - Gold": [
         22999,
         "https://www.daraz.com.np/products/gionee-a1-lite-smart-mobile-phone-32gb-rom-3gb-ram-53-gold-i25592-s79591.html?search=1"
     ],
     "Sony Xperia XA Ultra Android Smart Mobile Phone [16 GB ROM, 3 GB RAM - White]": [
-        20000,
+        19000,
         "https://www.daraz.com.np/products/sony-xperia-xa-ultra-android-smart-mobile-phone-16-gb-rom-3-gb-ram-i21103-s64069.html?search=1"
     ],
     "Sony Xperia X Android Smart Mobile Phone [64 GB ROM, 3 GB RAM -White]": [
@@ -151,6 +143,10 @@
         16990,
         "https://www.daraz.com.np/products/motorola-moto-e4-plus-smart-mobile-phone-3gb-ram-32gb-rom-iron-grey-i20846-s63299.html?search=1"
     ],
+    "Samsung Galaxy J1 Ace Smart Phone (512 MB RAM, 4 GB ROM)- Black": [
+        9000,
+        "https://www.daraz.com.np/products/samsung-galaxy-j1-ace-smart-phone-512-mb-ram-4-gb-rom-black-i18880-s57576.html?search=1"
+    ],
     "Gionee X1S Smart Mobile Phone (16GB ROM + 3GB RAM) 5.2\" - Gold": [
         17999,
         "https://www.daraz.com.np/products/gionee-x1s-smart-mobile-phone-16gb-rom-3gb-ram-52-gold-i25591-s79589.html?search=1"
@@ -158,5 +154,9 @@
     "Nokia 130DS (4 MB RAM, 1020mAh Battery) 1.8'' Screen Feature Phone - Black": [
         2900,
         "https://www.daraz.com.np/products/nokia-130ds-4-mb-ram-1020mah-battery-18-screen-feature-phone-black-i383636-s12081221.html?search=1"
+    ],
+    "Micromax Unbreakable Canvas 2 (16GB Black) Android Mobile Phone": [
+        14535,
+        "https://www.daraz.com.np/products/micromax-unbreakable-canvas-2-16gb-black-android-mobile-phone-i29052-s90668.html?search=1"
     ]
 }
