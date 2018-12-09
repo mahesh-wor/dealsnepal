@@ -3,39 +3,18 @@
 {% block content %}
 
         <!-- Page Content -->
-    <div class="container">
-      <div class="column">
-
-      <div class="row">
-              <!-- Page Heading -->
-              <h1 class="my-4">Smartphones
-                <small></small>
-              </h1>
-      </div>
-        </div>
-    <div class="column">
+   <div class="container col-md-12" style="padding:80px">
     {% for phoneinfo in phoneinfo %}
-            <div class="column">
+             <div >
+               <span >
+                 <img src="{{phoneinfo.link_img}}" height="200"; width="200">
+               </span>
+               <span class="col-md-6">
+                 <a href="{{phoneinfo.link_url}}"><b>{{ phoneinfo.name }}</b></a>
+               </span>
+               <span><b>Rs. {{ phoneinfo.price }}</b></span>
+             </div>
+     {% endfor %}
+    </div>
 
-                  <div class="row" style="height: 200px">
-                      <div class="col-md-6">
-                          {{phoneinfo.name}}<p>
-                          {{phoneinfo.price}}<p>
-                          {{phoneinfo.link_url}}<p>
-                          {{phoneinfo.link_img}}<p>
-
-                      </div>
-                      <div class="col-md-6">
-                          {{phoneinfo.name}}<p>
-                          {{phoneinfo.price}}<p>
-                          {{phoneinfo.link_url}}<p>
-                          {{phoneinfo.link_img}}<p>
-                      </div>
-
-
-                  </div>
-              </div>
-
-    {% endfor %}
-       </div>
-{% endblock content %}
+     {% endblock content %}

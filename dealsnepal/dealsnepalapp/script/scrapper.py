@@ -3,6 +3,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import phone
 import time
+import json
+
 
 option = webdriver.ChromeOptions()
 
@@ -29,7 +31,7 @@ def updatedict(dict):
     name_price_detail_url.update(dict)
 
 
-for i in range(1,2):
+for i in range(1,4):
     browser.get("https://www.daraz.com.np/smartphones/?page={}".format(i))
     phone_name = browser.find_elements_by_xpath("//a[@ age='0']")
     phone_img = browser.find_elements_by_xpath('//div[@class="c2p6A5"]')
@@ -38,17 +40,17 @@ for i in range(1,2):
     phone_img_detail=[]
     name_price_url_tmp={}
     for item in phone_img:
+
         img=item.find_element_by_tag_name('a')
         link=img.get_attribute('href')
-        #
-        # a=phone.get_img_url(link)
-        # print(a)
-        # time.sleep(2)
-        # phone_img_url.append(a)
+
+        url_tmp=phone.get_img_url(link)
+        print(url_tmp)
+        time.sleep(4)
+        phone_img_url.append(url_tmp)
 
         phone_img_url.append(link)
         phone_img_detail.append(link)
-
 
         print(link)
 
@@ -62,6 +64,9 @@ for i in range(1,2):
     updatedict(name_price_url_tmp)
 
 print(name_price_detail_url)
+
+with open('name_price_detail_url.json','w') as outfile:
+    json.dump(name_price_detail_url,outfile)
 
 
 

@@ -7,3 +7,12 @@
 .div.cell{
     background:green;
 }
+
+.window{
+background-color:lightblue;
+padding:80px
+}
+
+.windowinside{
+background-color:green;
+}
